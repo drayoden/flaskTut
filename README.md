@@ -10,4 +10,18 @@
     - `pip3 install psycopg2-binary`
     - `pip3 install flask-sqlalchemy`
     - `pip3 install gunicorn`
+  * deploy -- general stuff, Brad deploys to Heroku
+    - initial installs: python3, pip, postgres
+    - create db
+    - create folder(s) for content
+    - clone from github
+    - pip install all requirements (requirements.txt) `pip install -r requirements.txt` 
+    - change database URI in app.py
+    - change ENV in app.py to production
+    - create table:
+      * `python`
+      * `from app import db`
+      * `db.create_all()`
+      * `exit()`
+
 
