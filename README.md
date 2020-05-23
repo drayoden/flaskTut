@@ -6,6 +6,7 @@
   * postgresql: 
     - `sudo apt install postgresql postgresql-contrib`
     - `sudo apt install libpq-dev`
+    - `pip3 install flask`
     - `pip3 install psycopg2`
     - `pip3 install psycopg2-binary`
     - `pip3 install flask-sqlalchemy`
