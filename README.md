@@ -9,7 +9,7 @@
     - `pip3 install psycopg2`
     - `pip3 install psycopg2-binary`
     - `pip3 install flask-sqlalchemy`
-    - `pip3 install gunicorn`
+    - `pip3 install gunicorn` - for heroku
   * deploy -- general stuff, Brad deploys to Heroku
     - initial installs: python3, pip, postgres
     - create db
